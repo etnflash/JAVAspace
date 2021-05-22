@@ -1,6 +1,6 @@
 package assignment0518;
 
-public class exam3 {
+public class question3 {
 	public static void main(String args[]) {
 		int a, b, c;
 		a = 10;
