@@ -1,6 +1,6 @@
 package assignment0518;
 
-public class exam1 {
+public class question1 {
 	public static void main(String args[]) {
 		int kor, mat, eng, sum, avg;
 		
