@@ -1,6 +1,6 @@
 package assignment0518;
 import java.util.Scanner;
-public class exam4 {
+public class question4 {
 	public static void main(String args[]) {
 		Scanner input = new Scanner(System.in);
 		
