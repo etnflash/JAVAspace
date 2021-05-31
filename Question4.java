@@ -1,55 +1,26 @@
-package assignmetn0525condition;
+package assignmetn0525;
 import java.util.Scanner;
 public class Question4 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner input = new Scanner(System.in);
+		System.out.print("민수의 키를 입력하시오: ");
+		double mH = input.nextDouble();
+		System.out.print("민수의 몸무게를 입력하시오: ");
+		double mW = input.nextDouble();
+		System.out.print("기영이의 키를 입력하시오: ");
+		double kH = input.nextDouble();
+		System.out.print("기영이의 몸무게를 입력하시오: ");
+		double kW = input.nextDouble();
 		
-		System.out.println("which month? ");
-		int a = input.nextInt();
-		
-		switch ( a ) {
-			case 1:
-				System.out.println("31days");
-				break;
-			case 2:
-				System.out.println("28days");
-				break;
-			case 3:
-				System.out.println("31days");
-				break;
-			case 4:
-				System.out.println("30days");
-				break;
-			case 5:
-				System.out.println("31days");
-				break;
-			case 6:
-				System.out.println("30days");
-				break;
-			case 7:
-				System.out.println("31days");
-				break;
-			case 8:
-				System.out.println("31days");
-				break;
-			case 9:
-				System.out.println("30days");
-				break;
-			case 10:
-				System.out.println("31days");
-				break;
-			case 11:
-				System.out.println("30days");
-				break;
-			case 12:
-				System.out.println("31days");
-				break;
-			default:
-				System.out.println("error");
-				break;
+		if (mH > kH && mW > kW) {
+			System.out.println(1);
+		} else {
+			System.out.println(0);
 		}
+		
+		
 	}
 
 }
